@@ -1,0 +1,23 @@
+<html>
+    <head></head>
+    <body>
+        <h1> Repetición </h1>
+
+        <script>
+             function letras(){
+              var palabra;
+              var i=0;
+              palabra=document.getElementById("dato1").value;
+             while (i < palabra.length){
+            document.write(palabra.charAt(i),"<BR>","<td>","<tr>");
+            i=i+1;
+             }
+            }
+        </script>
+        <script>
+        </script>
+        <input type="text" size="10" id="dato1">
+        <input type="button" onclick="letras()" value="letras"></input>
+    
+    </body>
+</html>

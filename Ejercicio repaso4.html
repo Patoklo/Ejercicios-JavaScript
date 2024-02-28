@@ -1,0 +1,49 @@
+<html>
+<head></head>
+<body>
+    <h1>Ejercicios repaso</h1>
+
+    <script>
+
+nombres=["Juan", "Luis", "Monica", "Alberto"];
+notas=[8,5,4,3];
+var i=0;
+media=0.0;
+minimo=notas[0];
+maximo=notas[0];
+pmin=0;
+pmax=0;
+
+
+while(i<notas.length){
+
+if(notas[i]<minimo){
+minimo=notas[i]
+pmin=i;
+}
+if(notas[i]>maximo){
+maximo=notas[i]
+pmax=i;
+}
+    document.write( "el alumno ", nombres[i], " tiene la nota:", notas[i],"<br>")
+    media=media+notas[i]/notas.length
+    i++
+    
+}
+
+document.write( "Los alumnos ","tiene la nota media: ", media,"<br>")
+document.write("La nota minima es: ",notas[pmin]," y es el alumno: ",nombres[pmin]," y tiene la posición: ",pmin,"<br>");
+document.write("La nota minima es: ",notas[pmax]," y es el alumno: ",nombres[pmax]," y tiene la posición: ",pmax),"<br>";
+
+
+   
+  
+
+
+
+
+    </script>
+   
+
+</body>
+</html>

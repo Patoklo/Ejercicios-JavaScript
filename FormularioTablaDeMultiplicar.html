@@ -1,0 +1,26 @@
+<html>
+    <head></head>
+    <body>
+        <h1>EJERCICIO EN JAVASCRIPT</h1>
+         
+        <html>
+            <head></head>
+            <body>
+                 <script>
+                    function patoklo(){
+                    var numero=document.getElementById("dato1").value;
+                    dato=1;
+                    document.write("<table border=1")
+                    while(dato<=10){
+                    document.write("<tr>","<td>",numero,"*",dato,"=","</td>","<td>",numero*dato,"</td>","</tr>");
+                    dato=dato+1;
+                    }
+                    document.write("</table>");
+                    }
+                  </script>
+                  <input type="text" size="10" id="dato1">
+                  <input type="button" onclick="patoklo()" value="número"></input>
+            </body>
+        </html>
+    </body>
+</html>

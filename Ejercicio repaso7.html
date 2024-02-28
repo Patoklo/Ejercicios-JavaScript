@@ -1,0 +1,34 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>Ejercicios repaso</h1>
+
+    <script>
+       var compra=parseInt(prompt("Dime el precio de la compra"));
+       var producto=(prompt("Dime el tipo de producto"));
+       var base= 1.02;
+       var medio=1.10;
+       var lujo=1.21;
+
+       if(producto=="base"){
+        document.write(compra*base);
+       }
+
+       else if(producto=="medio"){
+        document.write(compra*medio)
+       }
+       else if(producto=="lujo"){
+        document.write(compra*lujo)
+       }
+       else{
+        document.write("Tipo de producto no valido");}
+
+
+    </script>
+
+
+</body>
+
+</html>

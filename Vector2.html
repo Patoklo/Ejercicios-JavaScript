@@ -1,0 +1,31 @@
+<html>
+<head></head>
+<body>
+    <h1>Vectores</h1>
+
+    <script>
+        function maraton() {
+            n = ["Juan", "Pepe", "Luis", "Joan"];
+            t = [300, 250, 263, 302];
+            i = 0;
+            dato = prompt("Dime un nombre");
+
+          
+            while (i < n.length) {
+                if (dato === n[i]) {
+                    document.write("El tiempo de " + dato + " es: " + t[i] + " minutos");
+                    i=n.length; 
+                }
+                i = i + 1;
+            }
+
+          
+            if (i === n.length) {
+                document.write("El nombre no esta en la lista");
+            }
+        }
+
+        maraton();
+    </script>
+</body>
+</html>

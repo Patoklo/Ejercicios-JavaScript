@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body>
+    <h1>Vectores</h1>
+
+    <script>;
+    var pf=6;
+    pv=0;
+    var partido=parseInt(prompt("dime el numero de partidos vistos"));
+    var apuestas=parseInt(prompt("dime el numero de apuestas hechas"));
+    var iva=1.21;
+
+
+        if(partido>4 && apuestas>4){
+            pv=(partido-4)*2 +((apuestas-4)*3);
+        }
+        
+       
+        
+        var preciototal=(pf+pv)*iva;
+        document.write("El precio total es ",preciototal)
+
+
+    </script>
+</body>
+</html>

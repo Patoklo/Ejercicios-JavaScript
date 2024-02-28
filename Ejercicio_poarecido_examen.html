@@ -1,0 +1,18 @@
+<html>
+<head></head>
+<body>
+    <h1>Vectores</h1>
+
+    <script>
+    var pf=6
+    var partido=parseInt(prompt("dime el numero de partidos vistos"));
+    var apuestas=parseInt(prompt("dime el numero de apuestas hechas"));
+    var pv=(partido-4)*2+(apuestas-4)*3;
+    var iva=0.21;
+    var ivatotal=((pf+pv)*iva);
+
+    document.write(pf+pv+ivatotal);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+​
+<html>
+    <head></head>
+    <body>
+        <h1>Galerias</h1>
+
+          <script>
+            function galeriaver(){
+                var numero;
+                var i;
+                document.write("<table border=1>");
+                    numero=parseInt(prompt("Dime el numero de fotos"));
+                    i=0;
+                   
+                    while (i < numero){
+                        document.write("<tr><td><img src=mike.jpeg></td></tr>");
+                        i=i+1;
+                    }
+                document.write("</table>")
+                }
+            function galeriahor(){
+                var num;
+                var l;
+                document.write("<table border=1><tr>");
+                    num=parseInt(prompt("Dime el numero de fotos"));
+                    l=0;
+                   
+                    while (l < num){
+                        document.write("<td><img src=mike.jpeg></td>");
+                        l=l+1;
+                    }
+                document.write("</table></tr>")
+            }  
+        </script>
+        <script>
+            galeriaver();
+            galeriahor();
+        </script>
+
+
+    </body>
+</html>
+
+  

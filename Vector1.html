@@ -1,0 +1,48 @@
+<html>
+    <head></head>
+    <body>
+        <h1> Vectores </h1>
+
+        <script>
+            v=[5,7,4,5];
+            b=["Juan","Pepe","Luis","Joan"];
+            media=0.0;
+            i=0;
+            max=0;
+            min=1000;
+            pa=0;
+            pm=0;
+
+            while(i< v.length){
+                
+                document.write("El alumno ",b[i]," ","tiene: ",v[i]);
+                document.write("<br>");
+            
+                if(v[i] < min){
+                min= v[i];
+                pm=i
+                media=media+v[i]
+                
+               
+            };
+            if(v[i] < max){
+                max= v[i];
+                pa= i;
+            }
+            i=i+1}
+
+            document.write("<br>");
+            document.write("Nota media","=",media/v.length);
+            document.write("<br>");
+            document.write("El minimo es"," ",b[pm],": ", v[pm]);
+            document.write("<br>");
+            document.write("El maximo es"," ",b[pa],": ", v[pa]);
+
+            
+            
+            
+            
+        </script>
+        
+    </body>
+</html>

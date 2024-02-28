@@ -1,0 +1,30 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>Ejercicios repaso</h1>
+
+    <script>
+        var pf = 6;
+        var pv= 0;
+        var iva =1.21;
+        var partidos= parseInt(prompt("Dime los partidos vistos"));
+        var apuestas= parseInt(prompt("Dime los apuestas hechas"));
+
+        if(partidos>4){
+            pv=(partidos-4)*2;
+        }
+        if(apuestas>4){
+        pv=(pv+apuestas-4)*3;
+        }
+        document.write("El precio con IVA es: ",(pv+pf)*iva);
+
+
+
+    </script>
+
+
+</body>
+
+</html>
