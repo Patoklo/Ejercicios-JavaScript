@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Menú de Repositorio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Repositorio Actividades de JS</h1>
+        <nav>
+            <ul>
+                <li><a href="De10a0.html">Actividad 1</a></li>
+                <li><a href="Areas.html">Actividad 2</a></li>
+                <li><a href="repeticion.html">Actividad 3</a></li>
+                <li><a href="Vector2.html">Actividad 4</a></li>
+                <li><a href="Vector1.html">Actividad 5</a></li>
+                <li><a href="SelecciónConEventos2.html">Actividad 6</a></li>
+                <li><a href="SelecciónConEventos.html">Actividad 7</a></li>
+                <li><a href="PalabraLista.html">Actividad 8</a></li>
+                <li><a href="PalabraCuadro.html">Actividad 9</a></li>
+                <li><a href="Palabra.html">Actividad 10</a></li>
+                <li><a href="Notas.html">Actividad 11</a></li>
+                <li><a href="MinYmax.html">Actividad 12</a></li>
+                <li><a href="Galeria de arte.html">Actividad 13</a></li>
+                <li><a href="FuncionPalabra.html">Actividad 14</a></li>
+                <li><a href="FormularioTablaDeMultiplicar.html">Actividad 15</a></li>
+                <li><a href="FormularioPalabra2.html">Actividad 16</a></li>
+                <li><a href="FormularioPalabra.html">Actividad 17</a></li>
+                <li><a href="Ejercicio_parecido_examen3.html">Actividad 18</a></li>
+                <li><a href="Ejercicio_parecido_examen2-html">Actividad 19</a></li>
+                <li><a href="Ejercicio_poarecido_examen.html">Actividad 20</a></li>
+                <li><a href="Ejercicio repaso8.html">Actividad 21</a></li>
+                <li><a href="Ejercicio repaso7.html">Actividad 22</a></li>
+                <li><a href="Ejercicio repaso6.html">Actividad 23</a></li>
+                <li><a href="Ejercicio repaso5.html">Actividad 24</a></li>
+                <li><a href="Ejercicio repaso4.html">Actividad 25</a></li>
+                <li><a href="Ejercicio repaso3.html">Actividad 26</a></li>
+                <li><a href="Ejercicio repaso2.html">Actividad 27</a></li>
+                <li><a href="Ejercicio repaso.html">Actividad 28</a></li>
+                <li><a href="Area cuadrado.html">Actividad 29</a></li>
+
+                
+        </nav>
+    </header>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+</body>
+</html>
